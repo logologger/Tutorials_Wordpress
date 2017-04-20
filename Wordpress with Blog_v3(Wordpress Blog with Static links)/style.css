@@ -1,0 +1,177 @@
+*{
+
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+a{
+
+    text-decoration: none;
+
+
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding:10px;
+
+}
+
+li{
+
+    list-style-type: none;
+}
+
+body{
+
+}
+
+header{
+    width:100%;
+    background-color: #4e94ab;
+}
+
+header label{
+    display:none;
+    width:30%;
+    padding:30px;
+    height:30px;
+    border-right:1px solid #fff;
+}
+
+header label:hover{
+    cursor:pointer;
+    background-color:rgba(0,0,0,0.3);
+}
+
+
+#btn-menu{
+    display:none;
+}
+
+#menu ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+
+}
+
+
+#menu li:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+#menu li a {
+    font-weight: bold;
+    display:block;
+    padding:15px 20px;;
+    color:#fff;
+}
+
+#main{
+    margin-top:5px;
+
+}
+
+.container{
+    width:70%;
+    height:auto;
+    margin:0 auto;
+    background-color: #bfd1dd;
+}
+
+#banner{
+    /*background-image: url(../image/);*/
+    background-size: 100% auto;
+    width:100%;
+    height:150px;
+}
+
+#banner-left{
+    width:100%;
+    color:#fff;
+    padding:30px;
+    font-size:256%;
+    font-weight: bold;
+}
+#banner-right{
+    width:70%;
+    height:100%;
+    float:right;
+}
+#banner-right ul{
+    list-style-type: none;
+    display: flex;
+    flex: 1;
+}
+
+#banner-right ul li{
+    float:left;
+}
+
+#banner-right-social{
+    margin-top:-9%;
+    height:60px;
+    width:80px;
+    float:right;
+    padding:5px;
+
+}
+.side{
+    width:29%;
+    height:200px;
+    background-color: #e0eeee;
+    float:right;
+    margin-bottom:10px;
+    border:1px solud #4e94ab;
+
+
+}
+
+.content{
+    width:70%;
+    height:auto;
+    background-color: #e0eeee;
+    float:left;
+}
+
+article{
+    border-bottom: 3px solid #fff;
+}
+
+#logo-menu{
+    display:none;
+}
+#search-form{
+    padding:5px;
+}
+#search{
+    width:100px;
+    margin:4px;
+}
+
+#search_text{
+    width:80%;
+    padding:5px 0 5px 5px;
+    font-size:12px;
+    font-family: Courier New, Courier, monospace;
+    border:0 none;
+    height:30px;
+    margin-right: 0;
+    color:#fff;
+    outline:none;
+    background: #efef22;
+    float:left;
+    box-sizing: border-box;
+    transition:all 0.15%;
+}
+
+#head-tab{
+    text-align: center;
+    font-weight: 900;
+    font-size:25px;
+}

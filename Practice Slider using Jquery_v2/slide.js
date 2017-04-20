@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+$(document).ready(function ($) {
 
   
   
@@ -13,12 +13,12 @@ jQuery(document).ready(function ($) {
 	var slideHeight = $('#slider ul li').height();
 	var sliderUlWidth = slideCount * slideWidth;
 	
-	$('#slider').css({ width: slideWidth, height: slideHeight });
+	//$('#slider').css({ width: slideWidth, height: slideHeight });
 	
 	$('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
 	
     
-    $('#slider ul li:last-child').prependTo('#slider ul');
+   // $('#slider ul li:last-child').prependTo('#slider ul');
 
     function moveLeft() {
         $('#slider ul').animate({
